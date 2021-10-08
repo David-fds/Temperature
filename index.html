@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <link rel="stylesheet" href="style.css"/>
     </head>
     
     <body>
-        <h1>FARENHEIT TO CELSIUS CONVERTER</h1>
+        <h1>Temperature Units Converter</h1>
 
-        <input type="number" id="input1">
-             Enter a Farenheit Temperature</>
+        <label>
+          <input id="input1" type="number" >
+             Enter a Temperature</label>
+
+        <h5></h5>
+
+        <label for="farenheit">
+          <input id="farenheit" type="radio" name="far-cel">
+          degrees Farenheit </label>
+
+        <label for="celsius">
+          <input id="celsius" type="radio" name="far-cel">
+               degrees Celsius </label>
+
+        <h5></h5>
 
         <button id="input2" onclick=convert()>
              GO </button>
@@ -15,7 +29,11 @@
         <button id="input3" onclick=wipe()>
              CLEAR </button>
 
+          
+
         <h2 id="c1">Some Text</h2>
+
+        
 
         <script type="text/javascript" src="script.js"></script>
    </body>

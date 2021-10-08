@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+#input1 {
+    font-size: large;
+    color: hotpink;
+}
+
+#input2 {
+    font-size: x-large;
+    color: maroon;
+    text-align: center;
+    background-color: mediumturquoise;
+}
+
+#input3 {
+    font-size: x-large;
+    color: slateblue;
+}
+
+#c1 {
+    text-align: center;
+    color: greenyellow;
+}
