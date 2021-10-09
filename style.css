@@ -20,6 +20,16 @@ h1 {
 }
 
 #c1 {
+    width: 100px;
     text-align: center;
     color: greenyellow;
+    background-color: black;
+    margin: 20px 20px 20px 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: gold;
+}
+
+#c2 {
+    display: none;
 }
