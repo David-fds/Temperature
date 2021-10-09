@@ -1,16 +1,24 @@
 function convert(){
     var element1 = document.getElementById("input1");
     var element2 = document.getElementById("c1");
-    var element3 = document.getElementsByName("far-cel");
-    var element4 = document.getElementById("farenheit");
+    var elementf = document.getElementById("farenheit");
+    var elementc = document.getElementById("celsius");
 
-    var check3 = element3.value;
-    var check4 = element4.onclick;
+    var checkf = elementf.checked;
+    var checkc = elementc.checked;
 
-    alert(check3 + "    " + check4);
+    alert(checkf + "    " + checkc);
 
+    var num3 = 0
     var num1 = element1.value;
-    var num3 = ((num1 - 32) * 5) / 9;
+
+    if(checkf == true) {
+        num3 = ((num1 - 32) * 5) / 9;
+    }
+
+    else {
+        num3 = ((num1 * 9) / 5) + 32;
+    }
 
     element2.textContent = num3;
 }
